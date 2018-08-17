@@ -125,11 +125,13 @@ float: right;
 
 .headerPics{
   position: relative;
+  
 
 }
 
 .main-logo{
   position: absolute;
+  border:1px solid black;
 }
 
 .card-body{
