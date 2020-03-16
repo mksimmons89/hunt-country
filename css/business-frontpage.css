@@ -11,6 +11,100 @@ background-color: #10381c;
 color: lightgrey;
 }
 
+ li a{
+  color: lightgreen;
+}
+
+p a{
+ color: lightgreen;
+}
+
+p a{
+ color: lightgreen;
+}
+
+a:hover, a:active, a:focus {
+  color: lightgrey;
+}
+
+name{
+  color: lightgreen;
+}
+
+#BIO, #ROY, #CERTS, #SPEAK {
+padding-top: 100px;
+}
+
+#topwrapper {
+font-size: 20px;
+      }
+
+#midhead {
+font-size: 25px;
+justify-content: left;
+width: 100%;
+      }
+
+#aboutwrapper {
+padding-top: 150px;
+font-size: 20px;
+      }
+
+#aboutwrapper1 {
+  padding-top: 50px;
+  font-size: 20px;
+   }
+
+#aboutwrapper2 {
+  padding-top: 150px;
+  font-size: 20px;
+   }
+
+#aboutwrapper3 {
+padding-top: 150px;
+font-size: 20px;
+   }
+
+
+
+
+#top {
+      float: right;
+      margin-top: -30px;
+      color: lightgreen
+            }
+
+#flower {
+    float: right;
+padding-left: 10px;
+            }
+
+#pmbenifits{
+float: left;
+width: 40%;
+margin-right:50px;
+margin: 20px;
+
+            }
+
+#pmservices{
+margin:20px;
+width: 40%;
+margin-left: 50px;
+float: right;
+}
+
+#center {
+margin: 0 auto;
+}
+
+#servicerow {
+display: flex;
+justify-content: center;
+padding-bottom: 15px;
+}
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -44,37 +138,49 @@ li {
 
 #horn{
   float: left;
-  width: 40%;
+  width: 35%;
   height: auto;
   margin: 15px;
-  padding: 0;
+  background-color: lightgrey;
+  padding: 1px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  margin-left: 0px;
 }
 
 #mike{
   float: left;
-  width: 45%;
+  width: 40%;
   height: auto;
   margin:15px;
   margin-left: 0px;
+  margin-top: 5px;
   padding: 1px;
   outline-width: 1px;
+  border-style: double;
+  background-color: lightgrey;
+  padding: 1px;
+  margin-bottom: 7px;
 }
 
 #hunter{
   float: left;
-  width: 43%;
+  width: 25%;
   height: auto;
-  margin: 20px;
-  margin-left: 0;
+  margin: 10px;
+  margin-top: 20px;
+  margin-right: 15px;
+  background-color: lightgrey;
   padding: 1px;
 }
 
 #trap{
   float: right;
-  width: 43%;
+  width: 35%;
   height: auto;
-  margin: 10px;
-  margin-right: 10px;
+  margin: 20px;
+  margin-bottom: 10px;
+  background-color: lightgrey;
   padding: 1px;
 }
 
@@ -82,8 +188,11 @@ li {
 float: right;
   width: 43%;
   height: auto;
-  margin: 10px;
+  margin-top: 50px;
   margin-right: 10px;
+  margin-left: 30px;
+  padding: 1px;
+  background-color: lightgrey;
   padding: 1px;
 
 }
@@ -207,6 +316,7 @@ p, h2,{
   margin: 0%;
   padding: 0%;
   position: static;
+
 }
 
 /*.contact{
@@ -261,6 +371,12 @@ text-align: center;
   position: static;
 }
 
+.display-4{
+  font-size: 20px;
+  margin-top: 20px;
+  position: static;
+}
+
 
   .home-txt{
     text-align: justify;
@@ -278,7 +394,8 @@ text-align: center;
   }
 
   #hunter{
-    margin-bottom: 40%;
+
+    margin-right: 10px;
   }
 }
 
@@ -293,6 +410,8 @@ text-align: center;
       top: 20%;
       left: 40%;
     }
+
+
 
     /*.mt-4{
       width: 30%;
@@ -341,6 +460,7 @@ text-align: center;
       }
 
 
+
       @media only screen and (min-width: 515px) and (max-width: 650px){
         .business-header{
          margin-bottom: -18%;
@@ -364,6 +484,9 @@ text-align: center;
 
         }
 
+
+
+
         @media only screen and (min-width: 576px) and (max-width: 991px){
           p{
             width: 150%;
@@ -378,12 +501,14 @@ text-align: center;
             width: 35%;
             height: auto;
             margin: 15px;
+            border-style: double;
           }
 
           #pond{
             width: 60%;
             height: auto;
             margin: 15px;
+            border-style: double;
           }
 
         }
