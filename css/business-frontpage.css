@@ -185,6 +185,19 @@ li {
   padding: 1px;
 }
 
+#girls{
+transform: rotate(90deg);
+  margin-bottom: 75px;
+  margin-top: 75px;
+  background-color: lightgrey;
+  padding: 1px;
+  width: 50%;
+  height: auto;
+text-align: center;
+margin-left: 135px;
+
+}
+
 #pond{
 float: right;
   width: 43%;
