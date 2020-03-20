@@ -134,6 +134,7 @@ li {
 
 .card {
   width: auto;
+  height: 100%;
   display: block;
 
 }
