@@ -133,7 +133,7 @@ li {
 }
 
 .card {
-  height: 100%;
+  height: auto;
   display: block;
 }
 
@@ -283,7 +283,7 @@ left: 40%;
 
 .img-pic{
 width: 10%;
-height: auto;
+
 }
 
 
