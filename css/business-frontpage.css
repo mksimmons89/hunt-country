@@ -133,7 +133,7 @@ li {
 }
 
 .card {
-  height: auto;
+  height: 100%;
   display: block;
 }
 
