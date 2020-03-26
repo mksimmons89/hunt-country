@@ -73,11 +73,6 @@
           <script>
              document.write('<a class="btn btn-primary btn-back btn-lg" onclick="window.history.back()" href="#">Go Back</a>');
 
-             $(window).bind("pageshow", function(event) {
-                 if (event.originalEvent.persisted) {
-                     window.location.reload()
-                 }
-             });
           </script>
     </div>
 
@@ -257,6 +252,14 @@
         <h5 class="m-0 text-center text-white">Copyright &copy; M.Simmons 2018</h5>
       </div>
       <!-- /.container -->
+      <script>
+      $(window).bind("pageshow", function(event) {
+          if (event.originalEvent.persisted) {
+              window.location.reload()
+          }
+      });
+      </script>
+
     </footer>
 
     <!-- Bootstrap core JavaScript -->
