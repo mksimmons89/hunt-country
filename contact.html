@@ -72,9 +72,8 @@
 
     <div class="da-back-button">
         <!-- <a class="btn btn-primary btn-lg" href="#">Go Back</a> -->
-          <script>
-             document.write('<a class="btn btn-primary btn-lg" onclick="window.history.back()" href="#">Go Back</a>');
-
+        <script>
+              document.write('<a class="btn btn-primary btn-lg" id="back">Go Back</a>');
           </script>
   </div>
   <div class="service_container">
@@ -263,21 +262,25 @@
         <h5 class="m-0 text-center text-white">Copyright &copy; M.Simmons 2020</h5>
       </div>
       <!-- /.container -->
-      <script>
-      (function () {
-	window.onpageshow = function(event) {
-		if (event.persisted) {
-			window.location.reload();
-		}
-	};
-})();
-      </script>
+
 
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+       document.getElementById("back").addEventListener("click", function (event) {
+
+            event.preventDefault();
+
+            window.history.back(-1);
+
+        });
+
+    </script>
 
   </body>
 
