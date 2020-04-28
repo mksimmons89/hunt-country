@@ -148,6 +148,10 @@ padding-bottom: 15px;
 }
 
 
+
+
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -179,8 +183,13 @@ li {
   width: auto;
   height: auto;
   display: block;
-
 }
+
+.whitetail-title{
+height: 68px;
+padding-top: 15px;
+}
+
 
 #horn{
   float: left;
